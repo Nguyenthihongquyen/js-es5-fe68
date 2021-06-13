@@ -1,0 +1,28 @@
+******Nguyên tắt đặt tên biến:**********
+--ko đặt tên biến có khoảng trắng và ký tự đặc biệt (chỉ cho phép dấu _ thôi), trùng với các keywords của js: if, else,funtion,var,... (kiểu var_a thì ok), đứng đầu là số hoặc kí tự đặc biệt,
+--nên đặt theo kiểu camelCase (Kiểu lạc đà) 
+++ khai báo hằng số nên viết IN_HOA 
+
+--tên funtion nên bắt đầu bằng động từ và có ý nghĩa
+
+**** biểu thức toán: > =, < =, >, <... 
+!= là ! =
+!== là ! = =
+
+= =  là so sánh giá trị và kiểu dữ liệu.
+=  chỉ so sánh giá trị hoy
+
+những giá trị khi đưa vào biểu thức điều kiện nó sẽ convert sang giá trị false: 0, '', "", ``, null, undefined, NaN (viết tắt của not a number là số nhân với chuỗi đồ...)
+ ?? thực thi trả giá trị khác null và undefined
+
+ví dụ: var a= 3; var b = -2; var result= a && b; console log result
+
+
+
+&& phép và so: sánh nếu 2 bên đều đúng thì ra true, 1 cái sai thì ra sai. nó sẽ dừng và trả giá trị false khi gặp false, nếu gặp true thì vẫn chạy tiếp. (Gọi là Falsy)
+|| phép hoặc: nếu 1 cái đúng đúng thì là đúng. sẽ dừng khi gặp true. (Gọi là Truethy)
+! phép nghịch đảo
+
+**** Điều kiện
+var isGirl = true;
+if (isGirl) chính là if (isGirl==true)
